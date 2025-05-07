@@ -23,7 +23,7 @@ class FileBeat(BaseModel):
 
 
 class Grafana(BaseModel):
-    anonymouse: str
+    anonymous: str
     volume: str
     password: str
 

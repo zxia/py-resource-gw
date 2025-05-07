@@ -1,0 +1,7 @@
+
+# 忽略 Python 生成的 .pyc 文件
+__pycache__/
+
+# 忽略 VSCode 的调试配置文件
+.vscode/
+

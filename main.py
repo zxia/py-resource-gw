@@ -119,7 +119,7 @@ def update_base_config(lab_name: str, item: BaseInfo):
     return item
 
 
-@app.get("/k8s/config/lab_name", response_model=BaseInfo)
+@app.get("/base/config/lab_name", response_model=BaseInfo)
 def get_base_config(lab_name: str):
     base_config = get_base_configure(lab_name)
     return base_config
